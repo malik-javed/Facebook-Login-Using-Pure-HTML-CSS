@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(232, 235, 238);
+    font-family: 'Roboto Slab', serif;
+}
+
+.main-container {
+    /* border: 5px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 130px;
+    height: 70%;
+
+}
+
+.main-left {
+    /* border: 5px solid red; */
+    width: 50%;
+}
+
+.main-left img {
+    width: 35%;
+    margin-left: 277px;
+    /* border: 5px solid red; */
+
+}
+
+.left-content {
+    /* border: 5px solid orange; */
+    margin-left: 302px;
+    font-size: 1.5rem;
+}
+
+.main-right {
+    /* border: 5px solid green; */
+    width: 50%;
+}
+
+.right-content {
+    /* border: 5px solid pink; */
+    width: 45%;
+    margin: 6px 0px 0px 25px;
+    /* height: auto; */
+    padding: 37px 0px;
+    background-color: white;
+    box-shadow: 1px 2px 8px 11px rgb(200 197 197 / 61%);
+}
+
+.right-content input {
+
+    margin: 4px 4px;
+    padding: 9px 5px;
+    /* outline: none; */
+    /* color: white; */
+    border-color: #dadada;
+    background-color: white;
+
+}
+
+
+.content-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+}
+
+.button {
+    background-color: white;
+}
+
+.LogIn {
+    /* background-color: rgb(24,119,242); */
+    background-color: rgb(24, 119, 242);
+    color: white;
+    width: 99%;
+    font-size: 14px;
+    margin: 3px 0px;
+    padding: 5px 0px;
+    border-radius: 8px;
+
+}
+
+footer {
+    height: 20%;
+    background-color: white;
+    font-size: 1.4rem;
+    /* margin: 42px 0px;
+    width: 43%;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 118px 0px 0px 0px; */
+}
+
+
+.foot-content {
+
+    width: 30%;
+    margin: 0px auto;
+    padding: 62px 36px;
+    background-color: white;
+
+}
